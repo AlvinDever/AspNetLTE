@@ -385,6 +385,7 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\Account\Login.js" />
     <Content Include="Scripts\Account\Register.js" />
+    <Content Include="Scripts\BingMap\General.js" />
     <Content Include="Scripts\Calendar\Calendar-menu.js" />
     <Content Include="Scripts\Calendar\Calendar.js" />
     <Content Include="Scripts\Charts\ChartsJs-menu.js" />
@@ -503,6 +504,8 @@
     <Content Include="Views\Home\DashboardV1.cshtml" />
     <Content Include="Views\Home\DashboardV2.cshtml" />
     <Content Include="Views\Apps\Index.cshtml" />
+    <Content Include="Views\Apps\ShowMaps.cshtml" />
+    <Content Include="Styles\BingMap\General.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

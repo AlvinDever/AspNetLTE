@@ -137,6 +137,5 @@ E:\Development\Projects\Git\Repos\AspNetLTE\WebApplication\bin\Microsoft.Owin.Se
 E:\Development\Projects\Git\Repos\AspNetLTE\WebApplication\bin\Microsoft.Owin.Security.Google.xml
 E:\Development\Projects\Git\Repos\AspNetLTE\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
 E:\Development\Projects\Git\Repos\AspNetLTE\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-E:\Development\Projects\Git\Repos\AspNetLTE\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
 E:\Development\Projects\Git\Repos\AspNetLTE\WebApplication\obj\Debug\WebApplication.dll
 E:\Development\Projects\Git\Repos\AspNetLTE\WebApplication\obj\Debug\WebApplication.pdb

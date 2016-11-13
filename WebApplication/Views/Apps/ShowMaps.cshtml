@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewBag.Title = "Apps";
+    ViewBag.SubTitle = "Maps";
+}
+
+
+@section Menu {
+    @Scripts.Render("~/Scripts/BingMap/General")
+    @Styles.Render("~/Styles/BingMap")
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <!-- Reference to the Bing Maps SDK -->
+    <script type='text/javascript' src='https://cn.bing.com/mapspreview/sdk/mapcontrol?branch=release&callback=loadMapScenario' async defer></script>
+
+    <script type='text/javascript' src='~/Scripts/BingMap/General.js'></script>
+
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="ion ion-ios-sunny-outline"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Map height</span>
+                    <span id="printoutHeight" class="info-box-number"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-red"><i class="fa fa-map"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Map Width</span>
+                    <span id="printoutWidth" class="info-box-number"></span>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix visible-sm-block"></div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-green"><i class="fa fa-map-pin"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Map X</span>
+                    <span id="printoutMapX" class="info-box-number"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-yellow"><i class="fa fa-map-signs"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Map Y</span>
+                    <span id="printoutMapY" class="info-box-number"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="row">
+            <div class="box box-success">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Bing Map API Demo</h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="box-body no-padding">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-8">
+                            <div class="pad">
+                                <div id="myMap" style="position:relative;width:100%;height:600px;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-4">
+                            <div class="pad bg-green" style="min-height: 600px">
+                                <div class="description-block margin-bottom">
+                                    <h5 class="description-header">Asia</h5>
+                                    <span class="description-text">Country</span>
+                                </div>
+                                <div class="description-block margin-bottom">
+                                    <h5 class="description-header">Europe</h5>
+                                    <span class="description-text">Country</span>
+                                </div>
+                                <div class="description-block margin-bottom">
+                                    <h5 class="description-header">Africa</h5>
+                                    <span class="description-text">Country</span>
+                                </div>
+                                <div class="description-block margin-bottom">
+                                    <h5 class="description-header">North America</h5>
+                                    <span class="description-text">Country</span>
+                                </div>
+                                <div class="description-block margin-bottom">
+                                    <h5 class="description-header">South America</h5>
+                                    <span class="description-text">Country</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+@section Scripts {
+
+    @Scripts.Render("~/AdminLTE/plugins/chartjs/js")
+}
+

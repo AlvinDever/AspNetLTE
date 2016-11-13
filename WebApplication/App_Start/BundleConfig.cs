@@ -144,8 +144,11 @@ namespace WebApplication
             bundles.Add(new ScriptBundle("~/Scripts/Elements/General/menu").Include(
                 "~/Scripts/Elements/General-menu.js"));
 
-            bundles.Add(new StyleBundle("~/Styles/Elements/General").Include(
-                "~/Styles/Elements/General.css"));
+            bundles.Add(new StyleBundle("~/Styles/BingMap/General").Include(
+                "~/Styles/BingMap/General.css"));
+
+            bundles.Add(new ScriptBundle("~/Scripts/BingMap/General").Include(
+                "~/Scripts/BingMap/General.js"));
 
             bundles.Add(new ScriptBundle("~/Scripts/Elements/Icons/menu").Include(
                 "~/Scripts/Elements/Icons-menu.js"));
@@ -432,7 +435,7 @@ namespace WebApplication
             // plugins | morris
             bundles.Add(new ScriptBundle("~/AdminLTE/plugins/morris/js").Include(
                                          "~/AdminLTE/plugins/morris/js/morris.min.js"));
-
+            
         }
     }
 }
