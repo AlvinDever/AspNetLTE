@@ -507,9 +507,7 @@
     <Content Include="Views\Apps\ShowMaps.cshtml" />
     <Content Include="Styles\BingMap\General.css" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="AdminLTE\bootstrap\css\bootstrap.css.map" />
